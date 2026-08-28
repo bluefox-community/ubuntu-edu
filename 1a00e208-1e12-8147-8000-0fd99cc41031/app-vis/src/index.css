@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark-first terminal UI (design.md §3) */
+    --background: 300 50% 5%;            /* #1A0A1E aubergine-950 */
+    --foreground: 310 15% 95%;           /* #F5F0F2 paper */
+    --card: 300 38% 11%;                 /* #2C1428 aubergine-900 */
+    --card-foreground: 310 15% 95%;
+    --popover: 300 38% 11%;
+    --popover-foreground: 310 15% 95%;
+    --primary: 17 82% 51%;               /* #E95420 orange */
+    --primary-foreground: 310 15% 95%;
+    --secondary: 306 41% 18%;            /* #5E2750 aubergine-700 */
+    --secondary-foreground: 310 15% 95%;
+    --muted: 306 41% 18%;
+    --muted-foreground: 307 10% 63%;     /* #A898A6 */
+    --accent: 306 41% 18%;
+    --accent-foreground: 310 15% 95%;
+    --destructive: 0 91% 71%;            /* #F87171 */
+    --destructive-foreground: 310 15% 95%;
+    --border: 306 26% 19%;               /* #3D2438 line */
+    --input: 306 26% 19%;
+    --ring: 17 82% 51%;
+    --radius: 0.625rem;
+    --sidebar-background: 300 50% 5%;
+    --sidebar-foreground: 310 15% 95%;
+    --sidebar-primary: 17 82% 51%;
+    --sidebar-primary-foreground: 310 15% 95%;
+    --sidebar-accent: 306 41% 18%;
+    --sidebar-accent-foreground: 310 15% 95%;
+    --sidebar-border: 306 26% 19%;
+    --sidebar-ring: 17 82% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-aubergine-950 text-paper font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04";
+  }
+  ::selection {
+    background: rgba(233, 84, 32, 0.35);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1a0a1e;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5e2750;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #77216f;
+  }
+}
+
+@layer components {
+  /* Inline code chip (design.md §4) */
+  .code-inline {
+    @apply inline-block rounded-[6px] border border-line bg-aubergine-900 px-1.5 py-0.5 font-mono text-[0.95em] text-orange-soft;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

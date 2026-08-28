@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#E95420" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- shield with network nodes -->
+  <path d="M64 12 L104 26 v34 c0 26 -18 44 -40 56 c-22 -12 -40 -30 -40 -56 V26 z"/>
+  <circle cx="64" cy="48" r="6"/>
+  <circle cx="46" cy="74" r="6"/>
+  <circle cx="82" cy="74" r="6"/>
+  <path d="M60 53 L50 69 M68 53 L78 69 M52 74 h24"/>
+</svg>

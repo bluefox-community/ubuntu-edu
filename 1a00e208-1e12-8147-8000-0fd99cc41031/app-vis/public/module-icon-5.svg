@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#E95420" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- rocket with graduation cap -->
+  <path d="M64 14 c14 10 20 26 20 44 l12 14 -16 4 c-4 8 -10 14 -16 18 c-6 -4 -12 -10 -16 -18 l-16 -4 12 -14 c0 -18 6 -34 20 -44 z"/>
+  <circle cx="64" cy="46" r="8"/>
+  <path d="M56 96 q-4 10 -10 14 M72 96 q4 10 10 14 M64 100 v14"/>
+  <path d="M28 20 L64 32 L100 20 L64 8 z" fill="#2C1428"/>
+  <path d="M84 26 v12 M64 32 v10"/>
+</svg>

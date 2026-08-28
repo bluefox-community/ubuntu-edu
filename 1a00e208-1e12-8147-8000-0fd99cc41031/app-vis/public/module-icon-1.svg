@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" stroke="#E95420" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- waving hand / hello -->
+  <path d="M44 74 V44 a6 6 0 0 1 12 0 V38 a6 6 0 0 1 12 0 V36 a6 6 0 0 1 12 0 v10 a6 6 0 0 1 12 0 v28 a30 30 0 0 1 -30 30 h-4 a30 30 0 0 1 -25 -13 L22 74 a6 6 0 0 1 9 -8 l13 12 z"/>
+  <path d="M24 30 q6 -8 14 -10 M18 44 q2 -10 10 -16"/>
+  <path d="M96 30 q10 2 14 10 M100 18 q12 4 16 14"/>
+</svg>
